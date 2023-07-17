@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#080808c0, #161212bd), url(1.jpg);
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.top {
+    width: 100%;
+}
+
+textarea {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 580px;
+    height: 200px;
+    resize: none;
+    border: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+ion-icon {
+    font-size: 30px;
+    color: #e436cd;
+}
+
+span {
+    color: #e436cd;
+}
+
+.bot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+button {
+    background-color: #e436cd;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#salvo p {
+    color: #fff;
+    margin-top: 8px;
+}

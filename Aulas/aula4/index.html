@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vulgo twitter</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500;1,600&display=swap" rel="stylesheet"> 
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- <script src="js/contaC.js" defer></script> -->
+    <script src="js/contaD.js" defer></script>
+    <script src="js/salvarTexto.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="bg">
+            <div class="top">
+                <a href="#"><ion-icon name="close"></ion-icon></a>
+                <hr>
+            </div>
+            <textarea placeholder="what's happening?" id="msg" maxlength="250"></textarea>
+
+            <div class="bot">
+                <p>Caracteres: <span id="caracteres">0</span>/250</p>
+                <button id="btn">Salvar</button>
+            </div>
+
+        </div>
+
+        <div id="salvo">
+            
+        </div>
+    </div>
+
+
+
+</body>
+</html>
